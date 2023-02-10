@@ -10,7 +10,7 @@ export const Banner = () => {
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
-    const toRotate = ["Web Developer", "estudandente de Ciência da Computação", "apaixonado por games"];
+    const toRotate = ["Web Developer", "estudante de Ciência da Computação", "apaixonado por games"];
     const period = 2000;
 
     useEffect(() => {
@@ -40,7 +40,7 @@ export const Banner = () => {
             setIsDeleting(false);
             setLoopNum(loopNum + 1);
             setIndex(1);
-            setDelta(250);
+            setDelta(100);
         } else {
             setIndex(prevIndex => prevIndex + 1);
         }
@@ -54,7 +54,7 @@ export const Banner = () => {
                         <span className="tagline">
                             Bem vindo ao meu Portfólio
                         </span>
-                        <h1> {`Olá, me nome é Augusto e eu sou `}
+                        <h1> {`Olá, meu nome é Augusto e eu sou `}
                             <span className="wrap">
                                 {text}
                             </span>

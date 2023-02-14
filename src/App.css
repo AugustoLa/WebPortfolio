@@ -356,3 +356,58 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .txt-rotate>.wrap {
   border-right: 0.08em solid #666;
 }
+
+
+/* Skills */
+
+
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+}
+
+.skill-bx {
+  background: linear-gradient(70deg, #F5B7B1, #AED6F1);
+  box-shadow: -10px -10px 30px lightblue;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin: -60px;
+}
+
+.skill h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.skill h2,
+h5 {
+  color: black;
+}
+
+.skill p {
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px 0 75px;
+}
+
+.skills-slider {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.skills-slider .item img {
+  width: 50%;
+  margin: 0 auto 15px auto;
+}
+
+.background-image-left {
+  top: 28%;
+  position: absolute;
+  bottom: 0;
+  width: 40%;
+  z-index: -4;
+}

@@ -1,6 +1,8 @@
 import { Container, Row, Col } from "react-bootstrap"
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css";
+import financeiro from "../assets/img/financeiro-img.png"
+import calculadora from "../assets/img/calculadora-img.png"
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -32,12 +34,12 @@ export const Skills = () => {
                             <p></p>
                             <Carousel responsive={responsive} infinite={true} className="skills-slider">
                                 <div className="item">
-                                    <h5>HTML/CSS</h5>
-                                    <p>COLOCAR LINK DO PROJETO AQUI</p>
+                                    <a href="https://augustola.github.io/ProjetoFinanceiro/" target="_blank"><img className="financeiro-img" src={financeiro}></img></a>
+                                    <h5>Web Page designada para o controle financeiro</h5>
                                 </div>
                                 <div className="item">
-                                    <h5>C#/ASP.NET</h5>
-                                    <p>COLOCAR LINK DO PROJETO AQUI</p>
+                                    <a href="https://augustola.github.io/Calculadora-React" target="_blank"><img className="calculadora-img" src={calculadora}></img></a>
+                                    <h5>Calculadora utilizando html/css e Javascript</h5>
                                 </div>
                                 <div className="item">
                                     <h5>Javascript</h5>

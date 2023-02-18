@@ -2,6 +2,8 @@ import { useEffect, useState } from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons"
 import bannerImg from "../assets/img/banner-img.svg"
+import TrackVisibility from "react-on-screen"
+import 'animate.css'
 
 export const Banner = () => {
 
@@ -54,6 +56,7 @@ export const Banner = () => {
                         <span className="tagline">
                             Bem vindo ao meu Portfólio
                         </span>
+
                         <h1> {`Olá, meu nome é Augusto e eu sou `}
                             <span className="wrap">
                                 {text}
@@ -70,6 +73,6 @@ export const Banner = () => {
                     </Col>
                 </Row>
             </Container>
-        </section>
+        </section >
     )
 }

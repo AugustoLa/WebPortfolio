@@ -48,9 +48,12 @@ export const NavBar = () => {
                             <a href="https://www.linkedin.com/in/augusto-laursen/" target="_blank"><img src={navIcon1} alt=""></img></a>
                             <a href="https://www.instagram.com/augustoalbertoni/" target="_blank"><img src={navIcon2} alt=""></img></a>
                         </div>
-                        <button className="vvd" onClick={() => console.log('conectar')} >
-                            <span>Vamos nos conectar!</span>
-                        </button>
+                        <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>
+                            <button>
+                                <span>Vamos nos conectar!</span>
+                            </button>
+                        </Nav.Link>
+
                     </span>
                 </Navbar.Collapse>
             </Container>

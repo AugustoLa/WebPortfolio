@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCards"
 import financeiro from "../assets/img/financeiro-img.png"
 import calculadora from "../assets/img/calculadora-img.png"
 import placeholder from "../assets/img/placeholder.png"
+import TrackVisibility from "react-on-screen"
+import 'animate.css'
 
 export const Projects = () => {
 
@@ -29,8 +31,14 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col size={12}>
-                        <h2>Projetos</h2>
-                        <p>Projetos pessoais</p>
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__bounce" : ""}>
+                                    <h2>Projetos</h2>
+                                    <p>Projetos pessoais</p>
+                                </div>
+                            }
+                        </TrackVisibility>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>

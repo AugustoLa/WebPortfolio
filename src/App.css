@@ -368,9 +368,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
-@media only screen and (max-device-width: 990px) {
+@media (max-device-width: 990px) {
   body .banner {
-    padding: 100px;
+    padding-top: 100px;
   }
 }
 
@@ -466,7 +466,7 @@ h5 {
 
 .project .nav.nav-pills .nav-link {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 10px;
   padding: 17px 0;
   color: black;
   width: 100%;
@@ -484,6 +484,7 @@ h5 {
   position: absolute;
   width: 0;
   height: 100%;
+  border-radius: 10px;
   background: linear-gradient(90.21deg, #F5B7B1 -5.91%, #AED6F1 111.58%);
   top: 0;
   left: 0;
@@ -499,10 +500,6 @@ h5 {
   border: 1px solid rgba(255, 255, 255, 1);
 }
 
-.nav-link#projects-tabs-tab-first {
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 55px 0px 0px 55px;
-}
 
 .proj-imgbx {
   position: relative;
@@ -706,6 +703,7 @@ h5 {
   background: transparent;
   border: 0;
   padding: 0 15px;
+
 }
 
 .new-email-bx button {
@@ -717,9 +715,6 @@ h5 {
   border-radius: 18px;
 }
 
-
-
-
 .footer img {
   width: 26%;
 }
@@ -730,4 +725,26 @@ h5 {
   color: black;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+
+@media (max-device-width: 990px) {
+
+  body .newsletter-bx {
+    background: #12121460;
+    border-radius: 55px;
+    color: #121212;
+    padding: 40px 100px;
+    margin-bottom: 80px;
+    margin-top: -122px;
+  }
+
+  body .new-email-bx button {
+    padding: 5px 5px;
+  }
+
+  body .new-email-bx input {
+    width: 150px;
+    padding: 5px 5px;
+  }
 }

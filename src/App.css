@@ -378,14 +378,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /* Habilidades */
 
 
-.financeiro-img {
-  border-radius: 20px;
-}
-
-.calculadora-img {
-  height: 100px;
-  border-radius: 20px;
-}
 
 .skill {
   padding: 0 0 50px 0;
@@ -426,7 +418,7 @@ h5 {
 }
 
 .skills-slider .item img {
-  width: 50%;
+  width: 20%;
   margin: 0 auto 15px auto;
 }
 
@@ -462,7 +454,7 @@ h5 {
 }
 
 .buttonProj button {
-  margin-left: 14vh;
+  margin-left: 15.5vh;
   margin-bottom: 2vh;
   font-weight: 700;
   color: #000;
@@ -562,6 +554,9 @@ h5 {
   transition: 0.4s ease-in-out;
 }
 
+.img-img {
+  height: 30vh;
+}
 
 .proj-imgbx:hover::before {
   height: 100%;

@@ -62,11 +62,7 @@ export const Banner = () => {
                                 {text}
                             </span>
                         </h1>
-                        <p>Sou apaixonado por jogos e adoro aprender a fazer as coisas da maneira mais eficiente possivel! Estou aprendendo a programar faz alguns meses e estou sempre disposto a trocar ideia e trabalhar em projetos em conjunto, se possivel!</p>
-                        <button onClick={() => console.log('connect')}>
-                            Vamos nos conectar
-                            <ArrowRightCircle size={25} />
-                        </button>
+                        <p>Sou apaixonado por jogos e adoro aprender a fazer as tarefas da maneira mais eficiente e divertida possivel! Estou aprendendo a programar faz alguns meses e estou sempre disposto a trocar ideia e trabalhar em projetos em conjunto, se possivel!</p>
                     </Col >
                     <Col xs={12} md={6} xl={5}>
                         <img src={bannerImg} alt="Banner Img" />

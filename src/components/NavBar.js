@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import logo from '../assets/img/logo.svg'
 import navIcon1 from '../assets/img/nav-icon1.svg'
 import navIcon2 from '../assets/img/nav-icon2.svg'
+import navIcon3 from '../assets/img/nav-icon3.png'
 
 export const NavBar = () => {
 
@@ -47,6 +48,7 @@ export const NavBar = () => {
                         <div className="social-icon">
                             <a href="https://www.linkedin.com/in/augusto-laursen/" target="_blank"><img src={navIcon1} alt=""></img></a>
                             <a href="https://www.instagram.com/augustoalbertoni/" target="_blank"><img src={navIcon2} alt=""></img></a>
+                            <a href="https://github.com/AugustoLa" target="_blank"><img src={navIcon3} alt=""></img></a>
                         </div>
                         <Nav.Link href="#connect" className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>
                             <button>

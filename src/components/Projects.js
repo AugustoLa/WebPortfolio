@@ -2,7 +2,6 @@ import { Container, Col, Row, Nav, Tab } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCards"
 import financeiro from "../assets/img/financeiro-img.png"
 import calculadora from "../assets/img/calculadora-img.png"
-import placeholder from "../assets/img/placeholder.png"
 import TrackVisibility from "react-on-screen"
 import 'animate.css'
 
@@ -20,12 +19,6 @@ export const Projects = () => {
             description: "Calcule a qualquer momento!",
             imgUrl: calculadora,
             projectUrl: "https://augustola.github.io/Calculadora-React/",
-        },
-        {
-            title: "Placeholder",
-            description: "Placeholder",
-            imgUrl: placeholder,
-            projectUrl: "https://google.com",
         },
     ];
 

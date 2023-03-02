@@ -1,6 +1,10 @@
 import { Container, Row, Col } from "react-bootstrap"
 import Carousel from "react-multi-carousel"
 import "react-multi-carousel/lib/styles.css";
+import css from "../assets/img/css.svg"
+import html from "../assets/img/html.svg"
+import csharp from "../assets/img/csharp.svg"
+import react from "../assets/img/react.svg"
 
 export const Skills = () => {
     const responsive = {
@@ -31,16 +35,20 @@ export const Skills = () => {
                             <p></p>
                             <Carousel responsive={responsive} infinite={true} className="skills-slider">
                                 <div className="item">
+                                    <img src={csharp}></img>
                                     <h5>C#/ASP.NET</h5>
                                 </div>
                                 <div className="item">
-                                    <h5>HTML/CSS</h5>
+                                    <img src={html}></img>
+                                    <h5>HTML</h5>
                                 </div>
                                 <div className="item">
-                                    <h5>Javascript</h5>
+                                    <img src={css}></img>
+                                    <h5>CSS</h5>
                                 </div>
                                 <div className="item">
-                                    <h5>Typescript</h5>
+                                    <img src={react}></img>
+                                    <h5>React</h5>
                                 </div>
                             </Carousel>
 

@@ -62,7 +62,7 @@ export const Banner = () => {
                                 {text}
                             </span>
                         </h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In in rhoncus neque. Phasellus tristique ex eget placerat porta. Nulla in velit in libero facilisis rutrum. Duis sollicitudin ligula lorem, vitae dictum felis sollicitudin a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed feugiat lorem id lacinia vestibulum. Duis egestas id felis in efficitur. Nunc aliquam ante in libero varius ullamcorper. In posuere, sem nec imperdiet aliquet, ante tortor sodales urna, condimentum posuere nibh arcu id mi. Vestibulum et velit lorem. Fusce dui urna, vulputate lacinia mi id, auctor mattis leo. Nulla facilisi. Nulla mi nisi, malesuada et rhoncus ut, tristique at urna. Nunc ut auctor sapien.</p>
+                        <p>Sou apaixonado por jogos e adoro aprender a fazer as coisas da maneira mais eficiente possivel! Estou aprendendo a programar faz alguns meses e estou sempre disposto a trocar ideia e trabalhar em projetos em conjunto, se possivel!</p>
                         <button onClick={() => console.log('connect')}>
                             Vamos nos conectar
                             <ArrowRightCircle size={25} />

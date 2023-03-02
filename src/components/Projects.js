@@ -13,16 +13,19 @@ export const Projects = () => {
             title: "Controle Financeiro",
             description: "Controle gastos e ganhos!",
             imgUrl: financeiro,
+            projectUrl: "https://augustola.github.io/ProjetoFinanceiro/",
         },
         {
             title: "Calculadora Web",
             description: "Calcule a qualquer momento!",
             imgUrl: calculadora,
+            projectUrl: "https://augustola.github.io/Calculadora-React/",
         },
         {
             title: "Placeholder",
             description: "Placeholder",
             imgUrl: placeholder,
+            projectUrl: "https://google.com",
         },
     ];
 

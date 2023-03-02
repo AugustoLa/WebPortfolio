@@ -23,6 +23,7 @@
 
 /* CSS PADRÃO*/
 
+
 * {
   margin: 0;
   padding: 0;
@@ -460,6 +461,54 @@ h5 {
   overflow: hidden;
 }
 
+.buttonProj button {
+  margin-left: 14vh;
+  margin-bottom: 2vh;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+}
+
+.buttonProj button span {
+  z-index: 1;
+  position: relative;
+}
+
+.buttonProj button:hover {
+  color: #fff;
+}
+
+.buttonProj button::before {
+  content: "";
+  background: #121212;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.buttonProj button:hover::before {
+  width: 100%;
+}
+
+
+.project .nav.nav-pills {
+  width: 72%;
+  margin: 0 auto;
+  border-radius: 50px;
+  background-color: rgb(255 255 255 / 10%);
+  overflow: hidden;
+}
+
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
@@ -479,12 +528,12 @@ h5 {
   z-index: 0;
 }
 
+
 .project .nav.nav-pills .nav-link::before {
   content: "";
   position: absolute;
   width: 0;
   height: 100%;
-  border-radius: 10px;
   background: linear-gradient(90.21deg, #F5B7B1 -5.91%, #AED6F1 111.58%);
   top: 0;
   left: 0;
@@ -496,16 +545,11 @@ h5 {
   width: 100% !important;
 }
 
-.project .nav.nav-pills .nav-link.active {
-  border: 1px solid rgba(255, 255, 255, 1);
-}
-
-
 .proj-imgbx {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
-  margin-bottom: 24px;
+  margin-bottom: -5px;
 }
 
 .proj-imgbx::before {
@@ -517,6 +561,7 @@ h5 {
   height: 0;
   transition: 0.4s ease-in-out;
 }
+
 
 .proj-imgbx:hover::before {
   height: 100%;
@@ -544,6 +589,8 @@ h5 {
   letter-spacing: 0.8px;
   line-height: 1.1em;
 }
+
+
 
 .proj-txtx span {
   font-style: italic;

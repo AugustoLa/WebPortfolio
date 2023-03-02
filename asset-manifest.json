@@ -1,29 +1,33 @@
 {
   "files": {
-    "main.css": "/WebPortfolio/static/css/main.1e247495.css",
-    "main.js": "/WebPortfolio/static/js/main.3e9aeabf.js",
+    "main.css": "/WebPortfolio/static/css/main.d0dcc7d2.css",
+    "main.js": "/WebPortfolio/static/js/main.46e9cb1c.js",
     "static/js/787.28cb0dcd.chunk.js": "/WebPortfolio/static/js/787.28cb0dcd.chunk.js",
     "static/media/bannerbg.jpg": "/WebPortfolio/static/media/bannerbg.95ad9b8cc014ae19eb36.jpg",
     "static/media/CentraNo2-Bold.ttf": "/WebPortfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/WebPortfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/WebPortfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/financeiro-img.png": "/WebPortfolio/static/media/financeiro-img.116ebd6004528a283aa8.png",
     "static/media/calculadora-img.png": "/WebPortfolio/static/media/calculadora-img.c60b6626252042ae69b2.png",
-    "static/media/financeiro-img.png": "/WebPortfolio/static/media/financeiro-img.330671e9888b39ed80ff.png",
     "static/media/revicons.eot": "/WebPortfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/WebPortfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/contact-img.svg": "/WebPortfolio/static/media/contact-img.32055a754502b8dd8d3a08d054386b4a.svg",
     "static/media/revicons.woff": "/WebPortfolio/static/media/revicons.e8746a624ed098489406.woff",
     "static/media/banner-img.svg": "/WebPortfolio/static/media/banner-img.cab5360c19d856635a446b71b41fb2f6.svg",
-    "static/media/nav-icon2.svg": "/WebPortfolio/static/media/nav-icon2.08b285abb8e118b52637efa5d65c5367.svg",
+    "static/media/react.svg": "/WebPortfolio/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/nav-icon1.svg": "/WebPortfolio/static/media/nav-icon1.96627ab0c0324e5bcd949a65df2e9a71.svg",
+    "static/media/csharp.svg": "/WebPortfolio/static/media/csharp.04d9d2bb18b9781567f7340691dcc686.svg",
     "static/media/logo.svg": "/WebPortfolio/static/media/logo.e9028809c5be4d3b662862c854b22f5e.svg",
-    "static/media/nav-icon1.svg": "/WebPortfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "static/media/nav-icon2.svg": "/WebPortfolio/static/media/nav-icon2.a63c9476fa83b33ffc32894544c5ccb7.svg",
     "index.html": "/WebPortfolio/index.html",
-    "main.1e247495.css.map": "/WebPortfolio/static/css/main.1e247495.css.map",
-    "main.3e9aeabf.js.map": "/WebPortfolio/static/js/main.3e9aeabf.js.map",
+    "static/media/css.svg": "/WebPortfolio/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html.svg": "/WebPortfolio/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.d0dcc7d2.css.map": "/WebPortfolio/static/css/main.d0dcc7d2.css.map",
+    "main.46e9cb1c.js.map": "/WebPortfolio/static/js/main.46e9cb1c.js.map",
     "787.28cb0dcd.chunk.js.map": "/WebPortfolio/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e247495.css",
-    "static/js/main.3e9aeabf.js"
+    "static/css/main.d0dcc7d2.css",
+    "static/js/main.46e9cb1c.js"
   ]
 }
